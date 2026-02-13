@@ -10,7 +10,7 @@
                         <img src="{{ asset('backend/assets/images/logo-sm.png') }}" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="24">
+                        <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="40">
                     </span>
                 </a>
                 <a href="{{ route('dashboard') }}" class="logo logo-dark">
@@ -18,7 +18,7 @@
                         <img src="{{ asset('backend/assets/images/logo-sm.png') }}" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('backend/assets/images/logo-dark.png') }}" alt="" height="24">
+                        <img src="{{ asset('backend/assets/images/logo-dark.png') }}" alt="" height="40">
                     </span>
                 </a>
             </div>
