@@ -33,13 +33,6 @@
                         <span> Dashboard </span>
                     </a>
                 </li>
-    
-                <!-- <li>
-                    <a href="landing.html" target="_blank">
-                        <i data-feather="globe"></i>
-                        <span> Landing </span>
-                    </a>
-                </li> -->
 
                 <li class="menu-title">Pages</li>
 
@@ -84,46 +77,183 @@
                 
                 <li class="menu-title mt-2">General</li>
 
+                <!-- Contacts -->
                 <li>
                     <a href="#sidebarBaseui" data-bs-toggle="collapse">
                         <i data-feather="package"></i>
-                        <span> Components </span>
+                        <span> Contacts </span>
                         <span class="menu-arrow"></span>
                     </a>
                     <div class="collapse" id="sidebarBaseui">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="ui-accordions.html" class="tp-link">Accordions</a>
+                                <a href="ui-accordions.html" class="tp-link">Suppliers</a>
                             </li>
                             <li>
-                                <a href="ui-alerts.html" class="tp-link">Alerts</a>
+                                <a href="ui-alerts.html" class="tp-link">Customers</a>
                             </li>
-                            
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Customer Groups</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
 
+
+                <!-- Products -->
                 <li>
                     <a href="#sidebarAdvancedUI" data-bs-toggle="collapse">
                         <i data-feather="cpu"></i>
-                        <span> Extended UI </span>
+                        <span> Products </span>
                         <span class="menu-arrow"></span>
                     </a>
                     <div class="collapse" id="sidebarAdvancedUI">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="extended-carousel.html" class="tp-link">Carousel</a>
+                                <a href="extended-carousel.html" class="tp-link">List Products</a>
                             </li>
                             <li>
-                                <a href="extended-notifications.html" class="tp-link">Notifications</a>
+                                <a href="extended-notifications.html" class="tp-link">Add Products</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Update Price</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Units</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Categories</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Brands</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                
+                <!-- Purchases -->
+                <li>
+                    <a href="#sidebarIcons" data-bs-toggle="collapse">
+                        <i data-feather="cpu"></i>
+                        <span> Purchases </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarIcons">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="extended-carousel.html" class="tp-link">List Purchases</a>
+                            </li>
+                            <li>
+                                <a href="extended-notifications.html" class="tp-link">Add Purchase</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+                
+
+                <!-- Sell -->
+                <li>
+                    <a href="#sidebarForms" data-bs-toggle="collapse">
+                        <i data-feather="cpu"></i>
+                        <span> Sell </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarForms">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="extended-carousel.html" class="tp-link">All Sales</a>
+                            </li>
+                            <li>
+                                <a href="extended-notifications.html" class="tp-link">Add Sale</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">List POS</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">POS</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">List Sell Return</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Add Sell Return</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+
+                <!-- Expenses -->
+                <li>
+                    <a href="#sidebarTables" data-bs-toggle="collapse">
+                        <i data-feather="cpu"></i>
+                        <span> Expenses </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarTables">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="extended-carousel.html" class="tp-link">List Expenses</a>
+                            </li>
+                            <li>
+                                <a href="extended-notifications.html" class="tp-link">Add Expense</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Expense Categories</a>
                             </li>
                             
                         </ul>
                     </div>
                 </li>
 
-                
-                
+
+                <!-- Payment accounts -->
+                <li>
+                    <a href="#sidebarCharts" data-bs-toggle="collapse">
+                        <i data-feather="cpu"></i>
+                        <span> Payment Accounts </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarCharts">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="extended-carousel.html" class="tp-link">List Accounts</a>
+                            </li>
+                            <li>
+                                <a href="extended-notifications.html" class="tp-link">Balance Sheet</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Cash Flow</a>
+                            </li>
+                            <li>
+                                <a href="ui-alerts.html" class="tp-link">Payment Account Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+
+                <!-- Reports -->
+                <li>
+                    <a href="#sidebarMaps" data-bs-toggle="collapse">
+                        <i data-feather="cpu"></i>
+                        <span> Reports </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarMaps">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="extended-carousel.html" class="tp-link">Profit Loss Report</a>
+                            </li>
+                            <li>
+                                <a href="extended-notifications.html" class="tp-link">Purchase and Sell Report</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </li>
 
             </ul>
 
