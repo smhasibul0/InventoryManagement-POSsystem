@@ -125,7 +125,7 @@
                                 <a href="ui-alerts.html" class="tp-link">Categories</a>
                             </li>
                             <li>
-                                <a href="ui-alerts.html" class="tp-link">Brands</a>
+                                <a href="{{ route('all.brand') }}" class="tp-link">Brands</a>
                             </li>
                         </ul>
                     </div>
