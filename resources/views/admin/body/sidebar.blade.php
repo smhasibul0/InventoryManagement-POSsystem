@@ -79,12 +79,12 @@
 
                 <!-- Contacts -->
                 <li>
-                    <a href="#sidebarBaseui" data-bs-toggle="collapse">
+                    <a href="#contacts" data-bs-toggle="collapse">
                         <i data-feather="package"></i>
                         <span> Contacts </span>
                         <span class="menu-arrow"></span>
                     </a>
-                    <div class="collapse" id="sidebarBaseui">
+                    <div class="collapse" id="contacts">
                         <ul class="nav-second-level">
                             <li>
                                 <a href="ui-accordions.html" class="tp-link">Suppliers</a>
@@ -102,12 +102,12 @@
 
                 <!-- Products -->
                 <li>
-                    <a href="#sidebarAdvancedUI" data-bs-toggle="collapse">
+                    <a href="#sidebarProducts" data-bs-toggle="collapse">
                         <i data-feather="cpu"></i>
                         <span> Products </span>
                         <span class="menu-arrow"></span>
                     </a>
-                    <div class="collapse" id="sidebarAdvancedUI">
+                    <div class="collapse" id="sidebarProducts">
                         <ul class="nav-second-level">
                             <li>
                                 <a href="extended-carousel.html" class="tp-link">List Products</a>
@@ -126,6 +126,9 @@
                             </li>
                             <li>
                                 <a href="{{ route('all.brand') }}" class="tp-link">Brands</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('all.warehouse') }}" class="tp-link">Warehouses</a>
                             </li>
                         </ul>
                     </div>
