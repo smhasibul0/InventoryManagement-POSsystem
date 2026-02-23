@@ -80,14 +80,14 @@
                 <!-- Contacts -->
                 <li>
                     <a href="#contacts" data-bs-toggle="collapse">
-                        <i data-feather="package"></i>
+                        <i data-feather="users"></i>
                         <span> Contacts </span>
                         <span class="menu-arrow"></span>
                     </a>
                     <div class="collapse" id="contacts">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="ui-accordions.html" class="tp-link">Suppliers</a>
+                                <a href="{{ route('all.supplier') }}" class="tp-link">Suppliers</a>
                             </li>
                             <li>
                                 <a href="ui-alerts.html" class="tp-link">Customers</a>
@@ -103,7 +103,7 @@
                 <!-- Products -->
                 <li>
                     <a href="#sidebarProducts" data-bs-toggle="collapse">
-                        <i data-feather="cpu"></i>
+                        <i data-feather="package"></i>
                         <span> Products </span>
                         <span class="menu-arrow"></span>
                     </a>
@@ -138,7 +138,7 @@
                 <!-- Purchases -->
                 <li>
                     <a href="#sidebarIcons" data-bs-toggle="collapse">
-                        <i data-feather="cpu"></i>
+                        <i data-feather="shopping-bag"></i>
                         <span> Purchases </span>
                         <span class="menu-arrow"></span>
                     </a>
@@ -159,7 +159,7 @@
                 <!-- Sell -->
                 <li>
                     <a href="#sidebarForms" data-bs-toggle="collapse">
-                        <i data-feather="cpu"></i>
+                        <i data-feather="shopping-cart"></i>
                         <span> Sell </span>
                         <span class="menu-arrow"></span>
                     </a>
@@ -191,7 +191,7 @@
                 <!-- Expenses -->
                 <li>
                     <a href="#sidebarTables" data-bs-toggle="collapse">
-                        <i data-feather="cpu"></i>
+                        <i data-feather="dollar-sign"></i>
                         <span> Expenses </span>
                         <span class="menu-arrow"></span>
                     </a>
@@ -215,7 +215,7 @@
                 <!-- Payment accounts -->
                 <li>
                     <a href="#sidebarCharts" data-bs-toggle="collapse">
-                        <i data-feather="cpu"></i>
+                        <i data-feather="credit-card"></i>
                         <span> Payment Accounts </span>
                         <span class="menu-arrow"></span>
                     </a>
@@ -241,7 +241,7 @@
                 <!-- Reports -->
                 <li>
                     <a href="#sidebarMaps" data-bs-toggle="collapse">
-                        <i data-feather="cpu"></i>
+                        <i data-feather="clipboard"></i>
                         <span> Reports </span>
                         <span class="menu-arrow"></span>
                     </a>
@@ -258,8 +258,8 @@
                     </div>
                 </li>
 
+                
             </ul>
-
         </div>
         <!-- End Sidebar -->
 

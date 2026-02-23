@@ -25,6 +25,7 @@
 
         <!-- Icons -->
         <link href="{{ asset('backend/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <!-- Toaster -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
@@ -90,6 +91,7 @@
 
         <!-- App js-->
         <script src="{{ asset('backend/assets/js/app.js') }}"></script>
+        <script src="{{ asset('backend/assets/js/validate.min.js') }}"></script>
 
         <!-- Datatables js -->
         <script src="{{ asset('backend/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
